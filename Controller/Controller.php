@@ -8,7 +8,7 @@ if( isset($_POST["username"]) && isset($_POST["password"]) ){
     $pass = $_POST["password"];
 }
 
-
+//deal with the button
 $expirado = false;
 
 if( isset( $_POST["Entrar"] ) ){
